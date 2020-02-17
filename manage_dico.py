@@ -85,6 +85,7 @@ class dico_search_tree:
         
     def is_w_in(self, list_str_w, profondeur = 0):
         """
+        # Ancienne version du code incorrecte
         if profondeur >= len(list_str_w):
             return self._liste_etq
         ret_list = []
